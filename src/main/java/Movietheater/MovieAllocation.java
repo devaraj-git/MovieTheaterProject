@@ -29,7 +29,7 @@ public class MovieAllocation {
         for (Map.Entry<Integer, List<Integer>> entry : allocation.entrySet()) {
             int screen = entry.getKey();
             List<Integer> movieShowtimes = entry.getValue();
-            System.out.println("Screen " + screen + ": " + movieShowtimes);
+            System.out.println("Screen ------>" + screen + ": " + movieShowtimes);
         }
     }
 
